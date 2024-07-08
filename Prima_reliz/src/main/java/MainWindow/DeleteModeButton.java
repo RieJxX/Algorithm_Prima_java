@@ -28,7 +28,7 @@ public class DeleteModeButton extends CustomJButton {
         if (removeMode) {
             this.setBackground(Color.RED);
         } else {
-            this.setBackground(Color.LIGHT_GRAY);
+            this.setBackground(new Color(174, 188, 242));
         }
     }
 
